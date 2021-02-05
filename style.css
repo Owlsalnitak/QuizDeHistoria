@@ -1,0 +1,49 @@
+body{
+    background:rgb(19, 208, 214);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    
+}
+#container{
+    max-width: 50%;
+    background:white;
+    margin: 28px auto;
+    overflow: auto;
+    padding: 10%;
+}
+header{
+    color:black;
+    text-align: center;
+}
+header h1{
+    margin: 0;
+    padding: 0;
+    color: black;
+
+}
+section{
+    min-height: 410px;
+}
+
+
+input[type='submit']{
+
+    background:rgb(148, 236, 214);
+    border: inset;
+    color: rgb(17, 14, 14);
+    padding: 15px 20 px;
+    cursor: auto;
+
+}
+
+#resultado h3{
+    background: rgb(19, 204, 164);
+    padding: 10px;
+    margin: 18px 0;
+
+}
+#resultado span{
+    color: rgb(11, 15, 15);
+    font-weight: bold;
+
+}
