@@ -18,5 +18,6 @@ function verificarResposta(){
     }
     var resultado = document.getElementById("resultado");
     resultado.innerHTML = '<h3>Você acertou <span>'+ pontos +'</span> de <span>'+ total + ' perguntas</span></h3>'
+    resultado = window.scrollTo(0,0);
     return false;
 }
